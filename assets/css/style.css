@@ -1,0 +1,77 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 1.5rem;
+	background-color: black;
+	color: white;
+}
+
+h1 {
+	margin: 3rem;
+}
+
+p {
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+	margin-bottom: 1rem;
+}
+
+.btn-container {
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+}
+
+button {
+	font-size: 1.5rem;
+	padding: .5rem 1rem;
+	border: none;
+	cursor: pointer;
+	border-radius: 3px;
+	color: white;
+	margin-bottom: 1rem;
+}
+
+#btn-buy, #btn-buy-all {
+	background-color: green;
+}
+
+#btn-buy:hover, #btn-buy-all:hover {
+	background-color: rgb(0, 189, 0);
+}
+
+#btn-sell, #btn-sell-all {
+	background-color: red;
+}
+
+#btn-sell:hover, #btn-sell-all:hover {
+	background-color: rgb(177, 0, 0);
+}
+
+#btn-next, #btn-next-10 {
+	background-color: slateblue;
+	width: 500px;
+}
+
+#btn-next:hover, #btn-next-10:hover {
+	background-color: rgb(131, 113, 250);
+}
+
+.histo-container {
+	position: relative;
+	width: 1401px;
+	height: 150px;
+	margin-top: 1rem;
+	overflow-x: auto;
+	padding: 1rem;
+}
